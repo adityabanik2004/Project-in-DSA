@@ -176,19 +176,3 @@ class StudentAdmission {
         return -1;
     }
 }
-/*
-Explanation
-Student Class → Holds student details like roll number, name, course, and year.
-
-Array of Students → Stores up to 100 student records.
-
-Menu-Driven Program → Lets the user add, view, search, update, and delete records.
-
-findStudent Method → Returns a student object by roll number.
-
-findStudentIndex Method → Returns the index of a student for deletion.
-
-Shifting Array → When deleting a record, elements are shifted to keep data contiguous.
-
-----------------------------------------------------------------------------
-*/
