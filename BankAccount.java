@@ -166,17 +166,3 @@ class BankAccountManagement {
         return null;
     }
 }
-/*
-Explanation
-BankAccount Class → Holds details of each account, with deposit/withdraw methods.
-
-Array of BankAccount → Stores up to 100 accounts.
-
-Menu-Driven System → Allows user to perform operations until they choose to exit.
-
-findAccount Method → Searches for an account by account number.
-
-Validation → Ensures no withdrawal beyond balance and checks for account existence.
-
------------------------------------------------------
-*/
