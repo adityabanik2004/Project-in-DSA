@@ -169,32 +169,3 @@ class ProductManagementSystem {
     }
 }
 
-/*
-🛠 Explanation of Operations
-Array as Storage → No database, fixed-size array (Product[100]) stores product objects.
-
-Add Product → Append to array until max capacity.
-
-View Products → Loop & display.
-
-Search Product → Linear search by ID.
-
-Update Product → Find ID, replace fields.
-
-Delete Product → Shift elements left after deletion.
-
-Exit → Ends loop.
-
-📊 Test Cases (All Scenarios)
-Test Case #	Input	Expected Output
-1	Add Product (ID=101, Name="Laptop", Price=55000, Qty=10)	"Product added successfully!"
-2	View Products	Displays: 101 Laptop 55000.00 10
-3	Search Product (ID=101)	Shows product details
-4	Search Product (ID=999)	"Product not found!"
-5	Update Product (ID=101, New Name="Gaming Laptop", Price=60000, Qty=8)	"Product updated successfully!"
-6	Delete Product (ID=101)	"Product deleted successfully!"
-7	Delete Product (ID=101) after already deleted	"Product not found!"
-8	View Products after deleting all	"No products available!"
-9	Fill up array with 100 products, then try adding 1 more	"Product list is full!"
-10	Add multiple products, search each by ID, then delete in reverse order	Should correctly display found products and remove them without error..
-*/
