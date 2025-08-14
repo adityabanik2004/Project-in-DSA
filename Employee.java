@@ -150,31 +150,3 @@ class EmployeeStackMain {
         }
     }
 }
-/*
-Explanation
-Employee Class
-
-Stores employee ID, name, and salary.
-
-Has displayEmployee() to print employee details.
-
-EmployeeStack Class
-
-Implements stack using an Employee[] array.
-
-Supports:
-
-push() → Add employee to stack.
-
-pop() → Remove top employee from stack.
-
-peek() → View top employee without removing.
-
-displayStack() → Show all employees from top to bottom.
-
-Main Program
-
-Menu-driven interface for stack operations.
-
--------------------------------------------------------
-*/
